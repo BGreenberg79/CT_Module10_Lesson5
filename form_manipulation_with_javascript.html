@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name=author content="Ben Greenberg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="form page">
+        <meta name="keywords" content="user, information, form">
+        <script src="2_form_manipulation_with_javascript.js" defer></script> 
+    </head>
+</html>
+<body>
+    <!-- Task 1 Create an HTML Form for name, email, and message -->
+    <form id="jsForm" onsubmit="handleSubmission(event)">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="30"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</body>
